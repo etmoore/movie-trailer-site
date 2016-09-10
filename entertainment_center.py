@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
@@ -31,3 +32,4 @@ the_godfather = media.Movie("The Godfather",
                             "https://www.youtube.com/watch?v=5DO-nDW43Ik")
 
 movies = [toy_story, avatar, eternal_sunshine, garden_state, into_the_wild, the_godfather]
+fresh_tomatoes.open_movies_page(movies)
