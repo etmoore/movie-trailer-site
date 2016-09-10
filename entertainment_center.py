@@ -14,7 +14,7 @@ avatar = media.Movie("Avatar",
 eternal_sunshine = media.Movie("Eternal Sunshine of the Spotless Mind",
                                 "Lovers try to forget their past and start over",
                                 "https://upload.wikimedia.org/wikipedia/en/6/62/Eternal_sunshine_of_the_spotless_mind_ver3.jpg",
-                                "https://www.youtube.com/watch?v=yE-f1alkq9I")
+                                "https://www.youtube.com/watch?v=rb9a00bXf-U")
 
 garden_state = media.Movie("Garden State",
                             "Zach Braff returns home for his mother's funeral",
@@ -29,7 +29,7 @@ into_the_wild = media.Movie("Into the wild",
 the_godfather = media.Movie("The Godfather",
                             "A mob boss transfers the family business to his son",
                             "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
-                            "https://www.youtube.com/watch?v=5DO-nDW43Ik")
+                            "https://www.youtube.com/watch?v=sY1S34973zA")
 
 movies = [toy_story, avatar, eternal_sunshine, garden_state, into_the_wild, the_godfather]
 fresh_tomatoes.open_movies_page(movies)
